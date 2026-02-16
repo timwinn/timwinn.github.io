@@ -21,3 +21,5 @@ venv/
 # Editor
 .vscode/
 .idea/
+
+**/*.quarto_ipynb
