@@ -1,5 +1,89 @@
 [
   {
+    "objectID": "CLAUDE.html",
+    "href": "CLAUDE.html",
+    "title": "Quarto Blog — Project Conventions",
+    "section": "",
+    "text": "Quarto blog at https://timwinn.github.io. Computational skills for healthcare professionals.\n\n\n\ntimwinn.github.io/\n├── _quarto.yml           # Site configuration\n├── index.qmd             # Home page (blog listing)\n├── about.qmd             # About page\n├── styles.css            # Custom styles\n├── posts/                # All blog posts\n│   ├── _metadata.yml     # Post defaults (freeze: true)\n│   └── YYYY-MM-DD-slug/  # Individual post directories\n│       └── index.qmd\n├── _freeze/              # Frozen computational outputs (MUST commit)\n├── _site/                # Build output (gitignored)\n└── .github/workflows/\n    └── publish.yml       # Auto-deploy on push to main\n\n\n\n\n\nposts/YYYY-MM-DD-slug/index.qmd — one directory per post, kebab-case slugs.\n\n\n\n---\ntitle: \"Post Title\"\ndescription: \"Brief description for SEO and listings\"\nauthor: \"Timothy Winn, MD\"\ndate: \"YYYY-MM-DD\"\ncategories: [category1, category2]\nimage: \"image.jpg\"   # optional thumbnail\ndraft: false          # true to hide from listings\n---\n\n\n\ntools · mathematics · programming · data-science · medical-education · reflections\n\n\n\n\n\nfreeze: true is set in posts/_metadata.yml\nRun code locally — frozen outputs go to _freeze/\nGitHub Actions only renders markdown → HTML (no code execution in CI)\nAlways commit _freeze/ changes after rendering posts with code\n\n\n\n\nquarto preview          # Local dev server with live reload\nquarto render           # Render entire site\nquarto render posts/YYYY-MM-DD-slug/index.qmd  # Render single post\n\n\n\nPush to main → GitHub Actions renders and deploys to gh-pages automatically.\nManual: quarto publish gh-pages\n\n\n\nConventional commits: feat:, fix:, docs:, style:, refactor:\nExamples: - feat: add post on Python data visualization - fix: correct broken link in about page - docs: update CLAUDE.md conventions\n\n\n\nStore images/data in the post directory. Reference with relative paths: ![Caption](image.png)"
+  },
+  {
+    "objectID": "CLAUDE.html#overview",
+    "href": "CLAUDE.html#overview",
+    "title": "Quarto Blog — Project Conventions",
+    "section": "",
+    "text": "Quarto blog at https://timwinn.github.io. Computational skills for healthcare professionals."
+  },
+  {
+    "objectID": "CLAUDE.html#directory-structure",
+    "href": "CLAUDE.html#directory-structure",
+    "title": "Quarto Blog — Project Conventions",
+    "section": "",
+    "text": "timwinn.github.io/\n├── _quarto.yml           # Site configuration\n├── index.qmd             # Home page (blog listing)\n├── about.qmd             # About page\n├── styles.css            # Custom styles\n├── posts/                # All blog posts\n│   ├── _metadata.yml     # Post defaults (freeze: true)\n│   └── YYYY-MM-DD-slug/  # Individual post directories\n│       └── index.qmd\n├── _freeze/              # Frozen computational outputs (MUST commit)\n├── _site/                # Build output (gitignored)\n└── .github/workflows/\n    └── publish.yml       # Auto-deploy on push to main"
+  },
+  {
+    "objectID": "CLAUDE.html#blog-posts",
+    "href": "CLAUDE.html#blog-posts",
+    "title": "Quarto Blog — Project Conventions",
+    "section": "",
+    "text": "posts/YYYY-MM-DD-slug/index.qmd — one directory per post, kebab-case slugs.\n\n\n\n---\ntitle: \"Post Title\"\ndescription: \"Brief description for SEO and listings\"\nauthor: \"Timothy Winn, MD\"\ndate: \"YYYY-MM-DD\"\ncategories: [category1, category2]\nimage: \"image.jpg\"   # optional thumbnail\ndraft: false          # true to hide from listings\n---\n\n\n\ntools · mathematics · programming · data-science · medical-education · reflections"
+  },
+  {
+    "objectID": "CLAUDE.html#freeze-strategy",
+    "href": "CLAUDE.html#freeze-strategy",
+    "title": "Quarto Blog — Project Conventions",
+    "section": "",
+    "text": "freeze: true is set in posts/_metadata.yml\nRun code locally — frozen outputs go to _freeze/\nGitHub Actions only renders markdown → HTML (no code execution in CI)\nAlways commit _freeze/ changes after rendering posts with code"
+  },
+  {
+    "objectID": "CLAUDE.html#commands",
+    "href": "CLAUDE.html#commands",
+    "title": "Quarto Blog — Project Conventions",
+    "section": "",
+    "text": "quarto preview          # Local dev server with live reload\nquarto render           # Render entire site\nquarto render posts/YYYY-MM-DD-slug/index.qmd  # Render single post"
+  },
+  {
+    "objectID": "CLAUDE.html#publishing",
+    "href": "CLAUDE.html#publishing",
+    "title": "Quarto Blog — Project Conventions",
+    "section": "",
+    "text": "Push to main → GitHub Actions renders and deploys to gh-pages automatically.\nManual: quarto publish gh-pages"
+  },
+  {
+    "objectID": "CLAUDE.html#commit-messages",
+    "href": "CLAUDE.html#commit-messages",
+    "title": "Quarto Blog — Project Conventions",
+    "section": "",
+    "text": "Conventional commits: feat:, fix:, docs:, style:, refactor:\nExamples: - feat: add post on Python data visualization - fix: correct broken link in about page - docs: update CLAUDE.md conventions"
+  },
+  {
+    "objectID": "CLAUDE.html#assets",
+    "href": "CLAUDE.html#assets",
+    "title": "Quarto Blog — Project Conventions",
+    "section": "",
+    "text": "Store images/data in the post directory. Reference with relative paths: ![Caption](image.png)"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Timothy Winn, MD",
+    "section": "",
+    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nFeb 15, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 12, 2026\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -12,26 +96,5 @@
     "title": "About",
     "section": "",
     "text": "I am a physician passionate about building computational skills and leveraging data science in healthcare.\n\n\n[Your medical background and current role]\n\n\n\n\nComputational medicine\nClinical data science\nHealth informatics\nEvidence-based practice\n\n\n\n\nThis blog documents my journey learning programming, data analysis, and computational methods. I share what I learn in the hope it helps other clinicians developing similar skills."
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Timothy Winn, MD",
-    "section": "",
-    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nFeb 15, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 12, 2026\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   }
 ]

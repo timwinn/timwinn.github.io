@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://timwinn.github.io/about.html</loc>
-    <lastmod>2026-02-16T04:25:30.661Z</lastmod>
-  </url>
-  <url>
-    <loc>https://timwinn.github.io/posts/post-with-code/index.html</loc>
-    <lastmod>2026-02-16T04:25:30.662Z</lastmod>
-  </url>
-  <url>
-    <loc>https://timwinn.github.io/index.html</loc>
-    <lastmod>2026-02-16T04:25:30.661Z</lastmod>
+    <loc>https://timwinn.github.io/CLAUDE.html</loc>
+    <lastmod>2026-02-16T04:26:41.653Z</lastmod>
   </url>
   <url>
     <loc>https://timwinn.github.io/posts/welcome/index.html</loc>
-    <lastmod>2026-02-16T04:25:30.662Z</lastmod>
+    <lastmod>2026-02-16T04:26:41.655Z</lastmod>
+  </url>
+  <url>
+    <loc>https://timwinn.github.io/index.html</loc>
+    <lastmod>2026-02-16T04:26:41.654Z</lastmod>
+  </url>
+  <url>
+    <loc>https://timwinn.github.io/posts/post-with-code/index.html</loc>
+    <lastmod>2026-02-16T04:26:41.655Z</lastmod>
+  </url>
+  <url>
+    <loc>https://timwinn.github.io/about.html</loc>
+    <lastmod>2026-02-16T04:26:41.654Z</lastmod>
   </url>
 </urlset>
