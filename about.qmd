@@ -7,29 +7,16 @@ about:
     - icon: github
       text: GitHub
       href: https://github.com/timwinn
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
-    - icon: envelope
-      text: Email
-      href: mailto:tim.winn@gmail.com
 ---
 
 ## Timothy Winn, MD
 
-I am a physician passionate about building computational skills and leveraging data science in healthcare.
+He's just some guy, ya know? 
 
 ### Background
 
-[Your medical background and current role]
+Pediatrician with past lives. Former softare engineer, barista, NICU nurse, EM resident.
 
-### Interests
+### Why does this blog exist? 
 
-- Computational medicine
-- Clinical data science
-- Health informatics
-- Evidence-based practice
-
-### This Blog
-
-This blog documents my journey learning programming, data analysis, and computational methods. I share what I learn in the hope it helps other clinicians developing similar skills.
+One thing I have learned is that I learn by writing. I'd like to revive dormant parts of my brain which once knew mathematics, computer science, and programming. If I could manage that, maybe I could do something useful with it. Maybe. Whether I do or don't, the idea is that I'll write about it here.
