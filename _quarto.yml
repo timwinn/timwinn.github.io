@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Timothy Winn, MD"
+  description: "A physician's journey building computational skills"
+  site-url: https://timwinn.github.io
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+    right:
+      - icon: github
+        href: https://github.com/timwinn
+      - icon: rss
+        href: index.xml
+  page-footer:
+    left: "Copyright 2026, Timothy Winn, MD"
+    right: "Built with [Quarto](https://quarto.org/)"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    code-copy: true
