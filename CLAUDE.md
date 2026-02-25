@@ -39,7 +39,7 @@ draft: false          # true to hide from listings
 ```
 
 ### Categories
-`tools` · `mathematics` · `programming` · `data-science` · `medical-education` · `reflections`
+`tools` · `mathematics` · `programming` · `data-science` · `medical-education` · `thoughts`
 
 ## Freeze Strategy
 - `freeze: true` is set in `posts/_metadata.yml`

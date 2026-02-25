@@ -3,7 +3,7 @@ Create a new blog post for the Quarto blog.
 Ask for:
 1. **Title** — the post title
 2. **Description** — a one-sentence summary for SEO and listing pages
-3. **Categories** — choose from: tools, mathematics, programming, data-science, medical-education, reflections
+3. **Categories** — choose from: tools, mathematics, programming, data-science, medical-education, thoughts
 
 Then:
 - Generate a slug from the title (kebab-case, lowercase)
@@ -22,7 +22,7 @@ draft: false
 ---
 ```
 
-Include starter section headings based on the post topic. For technical posts, include Introduction, an appropriate middle section, and Conclusion. For reflections, use a more narrative structure.
+Include starter section headings based on the post topic. For technical posts, include Introduction, an appropriate middle section, and Conclusion. For thoughts, use a more narrative structure.
 
 After creating the file, remind the user:
 - Preview with `quarto preview`
